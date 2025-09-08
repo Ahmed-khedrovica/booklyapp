@@ -1,8 +1,43 @@
+import 'package:booklyapp/Features/splash/presentation/views/widgets/sliding_text.dart';
 import 'package:booklyapp/core/utils/assets.dart';
 import 'package:flutter/cupertino.dart';
 
-class SplashViewBody extends StatelessWidget {
+class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});
+
+  @override
+  State<SplashViewBody> createState() => _SplashViewBodyState();
+}
+
+class _SplashViewBodyState extends State<SplashViewBody>
+    with SingleTickerProviderStateMixin {
+
+  // AnimationController => gives me values from 0 to 1
+  late AnimationController animationController;
+  //  بيتحط فوق ال AnimationController عشان اخد القيم اللي انا عايزها زي من 1 ل 60
+  late Animation<Offset> slidingAnimation;
+
+  @override
+  void initState() {
+    super.initState();
+    animationController = AnimationController(
+      vsync: this,
+      duration: Duration(seconds: 2),
+    );
+
+    slidingAnimation = Tween<Offset>(
+      begin: Offset(0, 2),
+      end: Offset.zero,
+    ).animate(animationController);
+
+    animationController.forward();
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    animationController.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -11,10 +46,8 @@ class SplashViewBody extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Image.asset(AssetsData.logo),
-        Text('Read Free Books',
-        textAlign: TextAlign.center,
-        ),
 
+        SlidingText(slidingAnimation: slidingAnimation,),
       ],
     );
   }
