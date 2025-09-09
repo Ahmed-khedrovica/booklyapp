@@ -1,6 +1,8 @@
+import 'package:booklyapp/Features/home/presentation/views/home_view.dart';
 import 'package:booklyapp/Features/splash/presentation/views/widgets/sliding_text.dart';
 import 'package:booklyapp/core/utils/assets.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:get/get.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});
@@ -12,26 +14,18 @@ class SplashViewBody extends StatefulWidget {
 class _SplashViewBodyState extends State<SplashViewBody>
     with SingleTickerProviderStateMixin {
 
-  // AnimationController => gives me values from 0 to 1
   late AnimationController animationController;
-  //  بيتحط فوق ال AnimationController عشان اخد القيم اللي انا عايزها زي من 1 ل 60
   late Animation<Offset> slidingAnimation;
 
   @override
   void initState() {
     super.initState();
-    animationController = AnimationController(
-      vsync: this,
-      duration: Duration(seconds: 2),
-    );
-
-    slidingAnimation = Tween<Offset>(
-      begin: Offset(0, 2),
-      end: Offset.zero,
-    ).animate(animationController);
-
-    animationController.forward();
+    initSlidingAnimation();
+    
+    navigateToHome();
   }
+
+
 
   @override
   void dispose() {
@@ -50,5 +44,30 @@ class _SplashViewBodyState extends State<SplashViewBody>
         SlidingText(slidingAnimation: slidingAnimation,),
       ],
     );
+  }
+
+
+
+  void initSlidingAnimation() {
+    animationController = AnimationController(
+      vsync: this,
+      duration: Duration(seconds: 2),
+    );
+
+    slidingAnimation = Tween<Offset>(
+      begin: Offset(0, 2),
+      end: Offset.zero,
+    ).animate(animationController);
+
+    animationController.forward();
+  }
+
+
+
+  void navigateToHome() {
+    Future.delayed(const Duration(seconds: 2), (){
+      Get.to(() => HomeView(), transition: Transition.fade,
+          duration: Duration(seconds: 2));
+    });
   }
 }
