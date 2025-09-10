@@ -2,6 +2,7 @@
 class Assets {
   Assets._();
 
+  static const String fontsGTSectraFineRegular = 'assets/fonts/GT Sectra Fine Regular.ttf';
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String imagesLogo = 'assets/images/Logo.png';
   static const String libConstants = 'lib/constants.dart';
@@ -10,7 +11,8 @@ class Assets {
   static const String viewsHomeView = 'lib/Features/home/presentation/views/home_view.dart';
   static const String viewsSplashView = 'lib/Features/splash/presentation/views/splash_view.dart';
   static const String widgetsCustomAppBar = 'lib/Features/home/presentation/views/widgets/custom_app_bar.dart';
-  static const String widgetsCustomListViewItem = 'lib/Features/home/presentation/views/widgets/custom_list_view_item.dart';
+  static const String widgetsCustomListViewItem = 'lib/Features/home/presentation/views/widgets/featured_list_view_item.dart';
+  static const String widgetsFeaturedListView = 'lib/Features/home/presentation/views/widgets/featured_list_view.dart';
   static const String widgetsHomeViewBody = 'lib/Features/home/presentation/views/widgets/home_view_body.dart';
   static const String widgetsSlidingText = 'lib/Features/splash/presentation/views/widgets/sliding_text.dart';
   static const String widgetsSplashViewBody = 'lib/Features/splash/presentation/views/widgets/splash_view_body.dart';
