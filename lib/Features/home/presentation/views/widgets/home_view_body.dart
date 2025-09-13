@@ -1,3 +1,4 @@
+import 'package:booklyapp/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_app_bar.dart';
@@ -8,9 +9,18 @@ class HomeViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(children: [
+    return const Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
       CustomAppBar(),
       FeaturedBooksListView(),
+      SizedBox(
+        height: 40,
+      ),
+      Text(
+        'Best Seller',
+      style: Styles.titleMedium,
+      )
     ]);
   }
 }
