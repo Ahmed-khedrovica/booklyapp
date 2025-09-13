@@ -9,9 +9,9 @@ class HomeViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+        children: const [
       CustomAppBar(),
       FeaturedBooksListView(),
       SizedBox(
@@ -19,7 +19,7 @@ class HomeViewBody extends StatelessWidget {
       ),
       Text(
         'Best Seller',
-      style: Styles.titleMedium,
+      style: Styles.textStyle18,
       ),
           BestSellerListViewItem(),
     ]);
