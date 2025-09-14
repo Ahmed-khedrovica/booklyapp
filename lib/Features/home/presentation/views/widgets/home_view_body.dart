@@ -1,6 +1,7 @@
 import 'package:booklyapp/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
+import 'best_seller_list_view_item.dart';
 import 'custom_app_bar.dart';
 import 'featured_list_view.dart';
 
@@ -11,83 +12,16 @@ class HomeViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-        children: const [
-      CustomAppBar(),
-      FeaturedBooksListView(),
-      SizedBox(
-        height: 40,
-      ),
-      Text(
-        'Best Seller',
-      style: Styles.textStyle18,
-      ),
-          SizedBox(height: 20,),
-          BestSellerListViewItem(),
-    ]);
-  }
-}
-
-
-class BestSellerListViewItem extends StatelessWidget {
-  const BestSellerListViewItem({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return SizedBox(
-      height: 120,
-      child: Row(
-        children: [
-          AspectRatio(
-            aspectRatio: 2.5 / 4,
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                color: Colors.red,
-                image: const DecorationImage(
-                  fit: BoxFit.fill,
-                  image: NetworkImage(
-                    'https://www.surfer.com/.image/t_share/MTk2Mjc2ODA4ODk3ODY1MjQz/oct_cover_guesser.jpg',
-                  ),
-                ),
-              ),
-            ),
-          ),
-          SizedBox(width: 30,),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              SizedBox(
-                width: MediaQuery.of(context).size.width * .5,
-                child: const Text(
-                  'Harry Potter  and the Goblet of Fire',
-                  style: Styles.textStyle20,
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  ),
-              ),
-              const SizedBox(
-                height: 3,
-              ),
-              Text(
-                  'J.K Howling',
-                style: Styles.textStyle20.copyWith(
-                  color: Colors.grey
-                ),
-              ),
-              const SizedBox(
-                height: 3,
-              ),
-              Row(
-                children: [
-                Text(
-                  '19.99',
-                style: Styles.textStyle18,
-                ),
-              ],)
-            ],
-          ),
-        ],
-      ),
+      children: const [
+        CustomAppBar(),
+        FeaturedBooksListView(),
+        SizedBox(height: 40),
+        Text('Best Seller', style: Styles.textStyle18),
+        SizedBox(height: 20),
+        BestSellerListViewItem(),
+      ],
     );
   }
 }
+
+
