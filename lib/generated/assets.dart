@@ -10,6 +10,7 @@ class Assets {
   static const String utilsStyles = 'lib/core/utils/styles.dart';
   static const String viewsHomeView = 'lib/Features/home/presentation/views/home_view.dart';
   static const String viewsSplashView = 'lib/Features/splash/presentation/views/splash_view.dart';
+  static const String widgetsBestSellerListView = 'lib/Features/home/presentation/views/widgets/best_seller_list_view.dart';
   static const String widgetsBestSellerListViewItem = 'lib/Features/home/presentation/views/widgets/best_seller_list_view_item.dart';
   static const String widgetsBookRating = 'lib/Features/home/presentation/views/widgets/book_rating.dart';
   static const String widgetsCustomAppBar = 'lib/Features/home/presentation/views/widgets/custom_app_bar.dart';
