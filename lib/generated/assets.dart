@@ -17,6 +17,7 @@ class Assets {
   static const String widgetsBookDetailsViewBody = 'lib/Features/home/presentation/views/widgets/book_details_view_body.dart';
   static const String widgetsBookRating = 'lib/Features/home/presentation/views/widgets/book_rating.dart';
   static const String widgetsCustomAppBar = 'lib/Features/home/presentation/views/widgets/custom_app_bar.dart';
+  static const String widgetsCustomBookDetailsAppBar = 'lib/Features/home/presentation/views/widgets/custom_book_details_app_bar.dart';
   static const String widgetsFeaturedListView = 'lib/Features/home/presentation/views/widgets/featured_list_view.dart';
   static const String widgetsFeaturedListViewItem = 'lib/Features/home/presentation/views/widgets/featured_list_view_item.dart';
   static const String widgetsHomeViewBody = 'lib/Features/home/presentation/views/widgets/home_view_body.dart';
