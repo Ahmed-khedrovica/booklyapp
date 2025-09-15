@@ -6,12 +6,15 @@ class Assets {
   static const String imagesLogo = 'assets/images/Logo.png';
   static const String libConstants = 'lib/constants.dart';
   static const String libMain = 'lib/main.dart';
+  static const String utilsAppRouter = 'lib/core/utils/app_router.dart';
   static const String utilsAssets = 'lib/core/utils/assets.dart';
   static const String utilsStyles = 'lib/core/utils/styles.dart';
+  static const String viewsBookDetailsView = 'lib/Features/home/presentation/views/book_details_view.dart';
   static const String viewsHomeView = 'lib/Features/home/presentation/views/home_view.dart';
   static const String viewsSplashView = 'lib/Features/splash/presentation/views/splash_view.dart';
   static const String widgetsBestSellerListView = 'lib/Features/home/presentation/views/widgets/best_seller_list_view.dart';
   static const String widgetsBestSellerListViewItem = 'lib/Features/home/presentation/views/widgets/best_seller_list_view_item.dart';
+  static const String widgetsBookDetailsViewBody = 'lib/Features/home/presentation/views/widgets/book_details_view_body.dart';
   static const String widgetsBookRating = 'lib/Features/home/presentation/views/widgets/book_rating.dart';
   static const String widgetsCustomAppBar = 'lib/Features/home/presentation/views/widgets/custom_app_bar.dart';
   static const String widgetsFeaturedListView = 'lib/Features/home/presentation/views/widgets/featured_list_view.dart';
