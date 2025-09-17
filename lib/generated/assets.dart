@@ -14,12 +14,14 @@ class Assets {
   static const String viewsSplashView = 'lib/Features/splash/presentation/views/splash_view.dart';
   static const String widgetsBestSellerListView = 'lib/Features/home/presentation/views/widgets/best_seller_list_view.dart';
   static const String widgetsBestSellerListViewItem = 'lib/Features/home/presentation/views/widgets/best_seller_list_view_item.dart';
+  static const String widgetsBookAction = 'lib/Features/home/presentation/views/widgets/book_action.dart';
   static const String widgetsBookDetailsViewBody = 'lib/Features/home/presentation/views/widgets/book_details_view_body.dart';
   static const String widgetsBookRating = 'lib/Features/home/presentation/views/widgets/book_rating.dart';
   static const String widgetsCustomAppBar = 'lib/Features/home/presentation/views/widgets/custom_app_bar.dart';
   static const String widgetsCustomBookDetailsAppBar = 'lib/Features/home/presentation/views/widgets/custom_book_details_app_bar.dart';
+  static const String widgetsCustomBookItem = 'lib/Features/home/presentation/views/widgets/custom_book_item.dart';
+  static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
   static const String widgetsFeaturedListView = 'lib/Features/home/presentation/views/widgets/featured_list_view.dart';
-  static const String widgetsFeaturedListViewItem = 'lib/Features/home/presentation/views/widgets/custom_book_item.dart';
   static const String widgetsHomeViewBody = 'lib/Features/home/presentation/views/widgets/home_view_body.dart';
   static const String widgetsSlidingText = 'lib/Features/splash/presentation/views/widgets/sliding_text.dart';
   static const String widgetsSplashViewBody = 'lib/Features/splash/presentation/views/widgets/splash_view_body.dart';

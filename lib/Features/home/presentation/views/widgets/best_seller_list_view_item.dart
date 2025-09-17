@@ -15,7 +15,7 @@ class BestSellerListViewItem extends StatelessWidget {
         GoRouter.of(context).push(AppRouter.bookDetailsView);
       },
       child: SizedBox(
-        height: 120,
+        height: 160,
         child: Row(
           children: [
             AspectRatio(
@@ -37,6 +37,7 @@ class BestSellerListViewItem extends StatelessWidget {
 
             Expanded(
               child: Column(
+                mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(
@@ -48,7 +49,6 @@ class BestSellerListViewItem extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                     ),
                   ),
-                  const SizedBox(height: 3),
                   Text(
                     'J.K Howling',
                     style: Styles.textStyle20.copyWith(color: Colors.grey),
