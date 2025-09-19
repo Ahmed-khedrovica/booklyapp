@@ -26,6 +26,7 @@ class Assets {
   static const String widgetsCustomSearchTextField = 'lib/Features/search/presentation/views/widgets/custom_search_text_field.dart';
   static const String widgetsFeaturedListView = 'lib/Features/home/presentation/views/widgets/featured_list_view.dart';
   static const String widgetsHomeViewBody = 'lib/Features/home/presentation/views/widgets/home_view_body.dart';
+  static const String widgetsSearchListView = 'lib/Features/search/presentation/views/widgets/search_list_view.dart';
   static const String widgetsSearchViewBody = 'lib/Features/search/presentation/views/widgets/search_view_body.dart';
   static const String widgetsSimilarBooksListView = 'lib/Features/home/presentation/views/widgets/similar_books_list_view.dart';
   static const String widgetsSimilarBooksSection = 'lib/Features/home/presentation/views/widgets/similar_books_section.dart';
