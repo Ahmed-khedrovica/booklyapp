@@ -23,6 +23,7 @@ class Assets {
   static const String widgetsCustomBookDetailsAppBar = 'lib/Features/home/presentation/views/widgets/custom_book_details_app_bar.dart';
   static const String widgetsCustomBookItem = 'lib/Features/home/presentation/views/widgets/custom_book_item.dart';
   static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
+  static const String widgetsCustomSearchTextField = 'lib/Features/search/presentation/views/widgets/custom_search_text_field.dart';
   static const String widgetsFeaturedListView = 'lib/Features/home/presentation/views/widgets/featured_list_view.dart';
   static const String widgetsHomeViewBody = 'lib/Features/home/presentation/views/widgets/home_view_body.dart';
   static const String widgetsSearchViewBody = 'lib/Features/search/presentation/views/widgets/search_view_body.dart';
