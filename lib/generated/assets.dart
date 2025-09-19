@@ -11,6 +11,7 @@ class Assets {
   static const String utilsStyles = 'lib/core/utils/styles.dart';
   static const String viewsBookDetailsView = 'lib/Features/home/presentation/views/book_details_view.dart';
   static const String viewsHomeView = 'lib/Features/home/presentation/views/home_view.dart';
+  static const String viewsSearchView = 'lib/Features/search/presentation/views/search_view.dart';
   static const String viewsSplashView = 'lib/Features/splash/presentation/views/splash_view.dart';
   static const String widgetsBestSellerListView = 'lib/Features/home/presentation/views/widgets/best_seller_list_view.dart';
   static const String widgetsBestSellerListViewItem = 'lib/Features/home/presentation/views/widgets/best_seller_list_view_item.dart';
@@ -24,8 +25,9 @@ class Assets {
   static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
   static const String widgetsFeaturedListView = 'lib/Features/home/presentation/views/widgets/featured_list_view.dart';
   static const String widgetsHomeViewBody = 'lib/Features/home/presentation/views/widgets/home_view_body.dart';
-  static const String widgetsSimilarBookSection = 'lib/Features/home/presentation/views/widgets/similar_books_section.dart';
+  static const String widgetsSearchViewBody = 'lib/Features/search/presentation/views/widgets/search_view_body.dart';
   static const String widgetsSimilarBooksListView = 'lib/Features/home/presentation/views/widgets/similar_books_list_view.dart';
+  static const String widgetsSimilarBooksSection = 'lib/Features/home/presentation/views/widgets/similar_books_section.dart';
   static const String widgetsSlidingText = 'lib/Features/splash/presentation/views/widgets/sliding_text.dart';
   static const String widgetsSplashViewBody = 'lib/Features/splash/presentation/views/widgets/splash_view_body.dart';
 
