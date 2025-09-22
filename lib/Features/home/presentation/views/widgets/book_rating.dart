@@ -17,16 +17,16 @@ class BookRating extends StatelessWidget {
       mainAxisAlignment: mainAxisAlignment,
       spacing: 7,
       children: [
-        Icon(FontAwesomeIcons.solidStar, color: Colors.amber,
-        size: 16,
-        ),
+        Icon(FontAwesomeIcons.solidStar, color: Colors.amber, size: 16),
 
         Text('4.8', style: Styles.textStyle18),
         Opacity(
-            opacity: 0.7,
-            child: Text('(2345)', style: Styles.textStyle18.copyWith(
-              overflow: TextOverflow.ellipsis
-            ))),
+          opacity: 0.7,
+          child: Text(
+            '(2345)',
+            style: Styles.textStyle18.copyWith(overflow: TextOverflow.ellipsis),
+          ),
+        ),
       ],
     );
   }

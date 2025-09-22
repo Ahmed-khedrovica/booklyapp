@@ -9,28 +9,50 @@ class Assets {
   static const String utilsAppRouter = 'lib/core/utils/app_router.dart';
   static const String utilsAssets = 'lib/core/utils/assets.dart';
   static const String utilsStyles = 'lib/core/utils/styles.dart';
-  static const String viewsBookDetailsView = 'lib/Features/home/presentation/views/book_details_view.dart';
-  static const String viewsHomeView = 'lib/Features/home/presentation/views/home_view.dart';
-  static const String viewsSearchView = 'lib/Features/search/presentation/views/search_view.dart';
-  static const String viewsSplashView = 'lib/Features/splash/presentation/views/splash_view.dart';
-  static const String widgetsBestSellerListView = 'lib/Features/home/presentation/views/widgets/best_seller_list_view.dart';
-  static const String widgetsBestSellerListViewItem = 'lib/Features/home/presentation/views/widgets/best_seller_list_view_item.dart';
-  static const String widgetsBookAction = 'lib/Features/home/presentation/views/widgets/book_action.dart';
-  static const String widgetsBookDetailsViewBody = 'lib/Features/home/presentation/views/widgets/book_details_view_body.dart';
-  static const String widgetsBookRating = 'lib/Features/home/presentation/views/widgets/book_rating.dart';
-  static const String widgetsBooksDetailsSection = 'lib/Features/home/presentation/views/widgets/books_details_section.dart';
-  static const String widgetsCustomAppBar = 'lib/Features/home/presentation/views/widgets/custom_app_bar.dart';
-  static const String widgetsCustomBookDetailsAppBar = 'lib/Features/home/presentation/views/widgets/custom_book_details_app_bar.dart';
-  static const String widgetsCustomBookItem = 'lib/Features/home/presentation/views/widgets/custom_book_item.dart';
-  static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
-  static const String widgetsCustomSearchTextField = 'lib/Features/search/presentation/views/widgets/custom_search_text_field.dart';
-  static const String widgetsFeaturedListView = 'lib/Features/home/presentation/views/widgets/featured_list_view.dart';
-  static const String widgetsHomeViewBody = 'lib/Features/home/presentation/views/widgets/home_view_body.dart';
-  static const String widgetsSearchListView = 'lib/Features/search/presentation/views/widgets/search_list_view.dart';
-  static const String widgetsSearchViewBody = 'lib/Features/search/presentation/views/widgets/search_view_body.dart';
-  static const String widgetsSimilarBooksListView = 'lib/Features/home/presentation/views/widgets/similar_books_list_view.dart';
-  static const String widgetsSimilarBooksSection = 'lib/Features/home/presentation/views/widgets/similar_books_section.dart';
-  static const String widgetsSlidingText = 'lib/Features/splash/presentation/views/widgets/sliding_text.dart';
-  static const String widgetsSplashViewBody = 'lib/Features/splash/presentation/views/widgets/splash_view_body.dart';
-
+  static const String viewsBookDetailsView =
+      'lib/Features/home/presentation/views/book_details_view.dart';
+  static const String viewsHomeView =
+      'lib/Features/home/presentation/views/home_view.dart';
+  static const String viewsSearchView =
+      'lib/Features/search/presentation/views/search_view.dart';
+  static const String viewsSplashView =
+      'lib/Features/splash/presentation/views/splash_view.dart';
+  static const String widgetsBestSellerListView =
+      'lib/Features/home/presentation/views/widgets/best_seller_list_view.dart';
+  static const String widgetsBestSellerListViewItem =
+      'lib/Features/home/presentation/views/widgets/best_seller_list_view_item.dart';
+  static const String widgetsBookAction =
+      'lib/Features/home/presentation/views/widgets/book_action.dart';
+  static const String widgetsBookDetailsViewBody =
+      'lib/Features/home/presentation/views/widgets/book_details_view_body.dart';
+  static const String widgetsBookRating =
+      'lib/Features/home/presentation/views/widgets/book_rating.dart';
+  static const String widgetsBooksDetailsSection =
+      'lib/Features/home/presentation/views/widgets/books_details_section.dart';
+  static const String widgetsCustomAppBar =
+      'lib/Features/home/presentation/views/widgets/custom_app_bar.dart';
+  static const String widgetsCustomBookDetailsAppBar =
+      'lib/Features/home/presentation/views/widgets/custom_book_details_app_bar.dart';
+  static const String widgetsCustomBookItem =
+      'lib/Features/home/presentation/views/widgets/custom_book_item.dart';
+  static const String widgetsCustomButton =
+      'lib/core/widgets/custom_button.dart';
+  static const String widgetsCustomSearchTextField =
+      'lib/Features/search/presentation/views/widgets/custom_search_text_field.dart';
+  static const String widgetsFeaturedListView =
+      'lib/Features/home/presentation/views/widgets/featured_list_view.dart';
+  static const String widgetsHomeViewBody =
+      'lib/Features/home/presentation/views/widgets/home_view_body.dart';
+  static const String widgetsSearchListView =
+      'lib/Features/search/presentation/views/widgets/search_list_view.dart';
+  static const String widgetsSearchViewBody =
+      'lib/Features/search/presentation/views/widgets/search_view_body.dart';
+  static const String widgetsSimilarBooksListView =
+      'lib/Features/home/presentation/views/widgets/similar_books_list_view.dart';
+  static const String widgetsSimilarBooksSection =
+      'lib/Features/home/presentation/views/widgets/similar_books_section.dart';
+  static const String widgetsSlidingText =
+      'lib/Features/splash/presentation/views/widgets/sliding_text.dart';
+  static const String widgetsSplashViewBody =
+      'lib/Features/splash/presentation/views/widgets/splash_view_body.dart';
 }

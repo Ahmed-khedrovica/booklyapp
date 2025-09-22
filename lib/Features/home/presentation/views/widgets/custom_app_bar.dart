@@ -13,14 +13,12 @@ class CustomAppBar extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Image.asset(AssetsData.logo,
-          height: 24 ,
-        ),
+        Image.asset(AssetsData.logo, height: 24),
 
         IconButton(
           onPressed: () {
-          GoRouter.of(context).push(AppRouter.searchView);
-        },
+            GoRouter.of(context).push(AppRouter.searchView);
+          },
           icon: Icon(FontAwesomeIcons.magnifyingGlass),
         ),
       ],
