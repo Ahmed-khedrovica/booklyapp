@@ -19,6 +19,8 @@ class Assets {
   static const String libConstants = 'lib/constants.dart';
   static const String libMain = 'lib/main.dart';
   static const String reposHomeRepo = 'lib/Features/home/data/repos/home_repo.dart';
+  static const String reposHomeRepoImpl = 'lib/Features/home/data/repos/home_repo_impl.dart';
+  static const String utilsApiService = 'lib/core/utils/api_service.dart';
   static const String utilsAppRouter = 'lib/core/utils/app_router.dart';
   static const String utilsAssets = 'lib/core/utils/assets.dart';
   static const String utilsStyles = 'lib/core/utils/styles.dart';
