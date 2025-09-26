@@ -20,6 +20,8 @@ class Assets {
   static const String imagesLogo = 'assets/images/Logo.png';
   static const String libConstants = 'lib/constants.dart';
   static const String libMain = 'lib/main.dart';
+  static const String newbookscubitNewestBooksCubit = 'lib/Features/home/presentation/manger/newest books cubit/newest_books_cubit.dart';
+  static const String newbookscubitNewestBooksState = 'lib/Features/home/presentation/manger/newest books cubit/newest_books_state.dart';
   static const String reposHomeRepo = 'lib/Features/home/data/repos/home_repo.dart';
   static const String reposHomeRepoImpl = 'lib/Features/home/data/repos/home_repo_impl.dart';
   static const String utilsApiService = 'lib/core/utils/api_service.dart';
