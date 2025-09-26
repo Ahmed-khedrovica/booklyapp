@@ -14,6 +14,8 @@ class Assets {
   static const String bookModelSearchInfo = 'lib/Features/home/data/models/book_model/search_info.dart';
   static const String bookModelVolumeInfo = 'lib/Features/home/data/models/book_model/volume_info.dart';
   static const String errorsFailures = 'lib/core/errors/failures.dart';
+  static const String featuredbookscubitFeaturedBooksCubit = 'lib/Features/home/presentation/manger/featured books cubit/featured_books_cubit.dart';
+  static const String featuredbookscubitFeaturedBooksState = 'lib/Features/home/presentation/manger/featured books cubit/featured_books_state.dart';
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String imagesLogo = 'assets/images/Logo.png';
   static const String libConstants = 'lib/constants.dart';
