@@ -23,12 +23,26 @@ class BookListViewItem extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  color: Colors.red,
-                  image: const DecorationImage(
+                  color: Colors.grey[300],
+                ),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(10),
+                  child: Image.network(
+                    'https://www.surfer.com/.image/t_share/MTk2Mjc2ODA4ODk3ODY1MjQz/oct_cover_guesser.jpg',
                     fit: BoxFit.fill,
-                    image: NetworkImage(
-                      'https://www.surfer.com/.image/t_share/MTk2Mjc2ODA4ODk3ODY1MjQz/oct_cover_guesser.jpg',
-                    ),
+                    errorBuilder: (context, error, stackTrace) {
+                      return Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.grey[300],
+                        ),
+                        child: const Icon(
+                          Icons.book,
+                          size: 50,
+                          color: Colors.grey,
+                        ),
+                      );
+                    },
                   ),
                 ),
               ),

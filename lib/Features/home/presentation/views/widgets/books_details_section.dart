@@ -15,7 +15,7 @@ class BookDetailsSection extends StatelessWidget {
       children: [
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * .2),
-          child: const CustomBookItem(
+          child: const CustomBookImage(
             imageUrl:
                 'https://www.surfer.com/.image/t_share/MTk2Mjc2ODA4ODk3ODY1MjQz/oct_cover_guesser.jpg',
           ),
