@@ -14,14 +14,14 @@ class Assets {
   static const String bookModelSearchInfo = 'lib/Features/home/data/models/book_model/search_info.dart';
   static const String bookModelVolumeInfo = 'lib/Features/home/data/models/book_model/volume_info.dart';
   static const String errorsFailures = 'lib/core/errors/failures.dart';
-  static const String featured books cubitFeaturedBooksCubit = 'lib/Features/home/presentation/manger/featured books cubit/featured_books_cubit.dart';
-  static const String featured books cubitFeaturedBooksState = 'lib/Features/home/presentation/manger/featured books cubit/featured_books_state.dart';
+  static const String featuredbookscubitFeaturedBooksCubit = 'lib/Features/home/presentation/manger/featured books cubit/featured_books_cubit.dart';
+  static const String featuredbookscubitFeaturedBooksState = 'lib/Features/home/presentation/manger/featured books cubit/featured_books_state.dart';
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String imagesLogo = 'assets/images/Logo.png';
   static const String libConstants = 'lib/constants.dart';
   static const String libMain = 'lib/main.dart';
-  static const String newest books cubitNewestBooksCubit = 'lib/Features/home/presentation/manger/newest books cubit/newest_books_cubit.dart';
-  static const String newest books cubitNewestBooksState = 'lib/Features/home/presentation/manger/newest books cubit/newest_books_state.dart';
+  static const String newestbookscubitNewestBooksCubit = 'lib/Features/home/presentation/manger/newest books cubit/newest_books_cubit.dart';
+  static const String newestbookscubitNewestBooksState = 'lib/Features/home/presentation/manger/newest books cubit/newest_books_state.dart';
   static const String reposHomeRepo = 'lib/Features/home/data/repos/home_repo.dart';
   static const String reposHomeRepoImpl = 'lib/Features/home/data/repos/home_repo_impl.dart';
   static const String utilsApiService = 'lib/core/utils/api_service.dart';
@@ -43,6 +43,8 @@ class Assets {
   static const String widgetsCustomBookDetailsAppBar = 'lib/Features/home/presentation/views/widgets/custom_book_details_app_bar.dart';
   static const String widgetsCustomBookItem = 'lib/Features/home/presentation/views/widgets/custom_book_item.dart';
   static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
+  static const String widgetsCustomErrorWidget = 'lib/core/widgets/custom_error_widget.dart';
+  static const String widgetsCustomLoadingIndicator = 'lib/core/widgets/custom_loading_indicator.dart';
   static const String widgetsCustomSearchTextField = 'lib/Features/search/presentation/views/widgets/custom_search_text_field.dart';
   static const String widgetsFeaturedListView = 'lib/Features/home/presentation/views/widgets/featured_list_view.dart';
   static const String widgetsHomeViewBody = 'lib/Features/home/presentation/views/widgets/home_view_body.dart';
