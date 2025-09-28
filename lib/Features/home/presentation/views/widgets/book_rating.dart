@@ -6,10 +6,12 @@ import '../../../../../core/utils/styles.dart';
 class BookRating extends StatelessWidget {
   const BookRating({
     super.key,
-    this.mainAxisAlignment = MainAxisAlignment.start,
+    this.mainAxisAlignment = MainAxisAlignment.start, required this.rating, required this.count,
   });
 
   final MainAxisAlignment mainAxisAlignment;
+  final String rating;
+  final int count;
 
   @override
   Widget build(BuildContext context) {
@@ -19,11 +21,11 @@ class BookRating extends StatelessWidget {
       children: [
         Icon(FontAwesomeIcons.solidStar, color: Colors.amber, size: 16),
 
-        Text('4.8', style: Styles.textStyle18),
+        Text(rating.toString(), style: Styles.textStyle18),
         Opacity(
           opacity: 0.7,
           child: Text(
-            '(2345)',
+            '($count)',
             style: Styles.textStyle18.copyWith(overflow: TextOverflow.ellipsis),
           ),
         ),
