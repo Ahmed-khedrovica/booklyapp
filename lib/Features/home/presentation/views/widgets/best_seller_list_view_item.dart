@@ -11,17 +11,20 @@ class BookListViewItem extends StatelessWidget {
   const BookListViewItem({super.key, required this.bookModel});
 
   final BookModel bookModel;
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        GoRouter.of(context).push(AppRouter.bookDetailsView);
+        GoRouter.of(context).push(AppRouter.bookDetailsView, extra: bookModel);
       },
       child: SizedBox(
         height: 160,
         child: Row(
           children: [
-            CustomBookImage(imageUrl: bookModel.volumeInfo.imageLinks.thumbnail),
+            CustomBookImage(
+              imageUrl: bookModel.volumeInfo.imageLinks.thumbnail,
+            ),
             SizedBox(width: 30),
 
             Expanded(
@@ -31,7 +34,7 @@ class BookListViewItem extends StatelessWidget {
                 children: [
                   SizedBox(
                     width: MediaQuery.of(context).size.width * .5,
-                    child:  Text(
+                    child: Text(
                       bookModel.volumeInfo.title!,
                       style: Styles.textStyle20,
                       maxLines: 2,
@@ -47,8 +50,10 @@ class BookListViewItem extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text('Free', style: Styles.textStyle18),
-                      BookRating(rating: bookModel.volumeInfo.maturityRating!,
-                        count: bookModel.volumeInfo.pageCount ?? 0,),
+                      BookRating(
+                        rating: bookModel.volumeInfo.maturityRating!,
+                        count: bookModel.volumeInfo.pageCount ?? 0,
+                      ),
                     ],
                   ),
                 ],

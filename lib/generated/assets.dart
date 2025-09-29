@@ -24,6 +24,8 @@ class Assets {
   static const String newestbookscubitNewestBooksState = 'lib/Features/home/presentation/manger/newest books cubit/newest_books_state.dart';
   static const String reposHomeRepo = 'lib/Features/home/data/repos/home_repo.dart';
   static const String reposHomeRepoImpl = 'lib/Features/home/data/repos/home_repo_impl.dart';
+  static const String simliarbookcubitSimilarBookCubit = 'lib/Features/home/presentation/manger/simliar book cubit/similar_book_cubit.dart';
+  static const String simliarbookcubitSimilarBookState = 'lib/Features/home/presentation/manger/simliar book cubit/similar_book_state.dart';
   static const String utilsApiService = 'lib/core/utils/api_service.dart';
   static const String utilsAppRouter = 'lib/core/utils/app_router.dart';
   static const String utilsAssets = 'lib/core/utils/assets.dart';
