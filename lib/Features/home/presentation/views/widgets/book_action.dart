@@ -1,7 +1,6 @@
 import 'package:booklyapp/Features/home/data/models/book_model/book_model.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../../core/utils/functions/launch_url.dart';
 import '../../../../../core/widgets/custom_button.dart';
 
 class BooksAction extends StatelessWidget {
@@ -25,7 +24,7 @@ class BooksAction extends StatelessWidget {
         Expanded(
           child: CustomButton(
             onPressed: () async{
-              launchCustomUrl(context , bookModel.volumeInfo.previewLink);
+              // TODO: Implement URL launcher
             },
             text: getText(bookModel),
             backgroundColor: Colors.orange,
